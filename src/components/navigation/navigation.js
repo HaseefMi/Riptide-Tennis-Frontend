@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 function Navigation() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [showMenu, setShowMenu] = useState(false);
-    const menuLinks = ['Home', 'About', 'Events', 'Pricing', 'Join Us', 'Contact', 'EN/中']
+    const menuLinks = ['Home', 'About', 'Events', 'Sign Up', 'Pricing', 'Careers', 'Contact', 'EN/中']
 
     useEffect(() => {
         const handleResize = () => {
