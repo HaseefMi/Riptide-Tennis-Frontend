@@ -67,6 +67,8 @@
         flex-direction: column;
         font-size: 13px;
         width: 100%;
+        padding: 30px;
+        transform: translateX(-5%);
     }
     .session-container:nth-child(2) {
         margin-top: 5vh;
