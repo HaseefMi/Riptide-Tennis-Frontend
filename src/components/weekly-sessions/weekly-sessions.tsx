@@ -1,8 +1,8 @@
-import './weekly-sessions.css'
+import './weekly-sessions.scss'
 import OTHS from '../../assets/oths.png'
 import IYF from '../../assets/iyf.png'
 
-function WeeklySessions() {
+const WeeklySessions: React.FC = () => {
     return (
         <>
         <h1 className='weekly-sessions-header'>Weekly Sessions</h1>

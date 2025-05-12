@@ -3,7 +3,7 @@ import StudentExec from '../../assets/news-landing-exec.png'
 import FTT from '../../assets/first-table-tennis-ace.png';
 import IS from '../../assets/inter-school.png';
 
-function NewsLanding() {
+const NewsLanding: React.FC = () => {
     return (
         <>
         <h1 id='news-landing-header'>News & Previous Events</h1>

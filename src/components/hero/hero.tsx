@@ -1,7 +1,7 @@
-import './hero.css'
-import HeroImg from '../../assets/hero-img.png'
+import './hero.scss'
+import HeroImg from '../../assets/hero-img.png';
 
-function Hero() {
+const Hero: React.FC = () => {
     return (
         <div className='hero-container'>
             <div className='hero-text'>

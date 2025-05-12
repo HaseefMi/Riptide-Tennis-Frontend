@@ -1,14 +1,14 @@
-import './navigation.css'
+import './navigation.scss'
 import Logo from '../../assets/riptide-logo.png'
 import { useState, useEffect } from 'react'
 
-function Navigation() {
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-    const [showMenu, setShowMenu] = useState(false);
-    const menuLinks = ['Home', 'About', 'Events', 'Sign Up', 'Pricing', 'Careers', 'Contact', 'EN/中']
+const Navigation: React.FC = () => {
+    const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
+    const [showMenu, setShowMenu] = useState<boolean>(false);
+    const menuLinks: string[] = ['Home', 'About', 'Events', 'Sign Up', 'Pricing', 'Careers', 'Contact', 'EN/中']
 
     useEffect(() => {
-        const handleResize = () => {
+        const handleResize: EventListener = () => {
             setWindowWidth(window.innerWidth);  
         }
 
@@ -24,7 +24,7 @@ function Navigation() {
         <>
         <div className='nav-container'>
             <div className='logo-container'>
-                <img src={Logo} />
+                <img src={Logo} height={100}/>
             </div>
             <div className='nav-links'>
             {windowWidth > 480 ? (

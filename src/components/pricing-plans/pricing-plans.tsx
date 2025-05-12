@@ -1,6 +1,6 @@
-import './pricing-plans.css'
+import './pricing-plans.scss'
 
-function PricingPlans() {
+const PricingPlans: React.FC = () => {
     return (
         <>
             <h1 id='pricing-plans-header'>Pricing Plans</h1>
