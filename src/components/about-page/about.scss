@@ -1,0 +1,15 @@
+.about-us-container {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+
+    p {
+        font-size: 3.5vh;
+    }
+}
+
+@media(max-width: 480px) {
+    .about-us-container p {
+        font-size: 2vh;
+    }
+}
