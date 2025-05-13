@@ -6,8 +6,8 @@ import { useNavigate } from 'react-router-dom'
 const Navigation: React.FC = () => {
     const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
     const [showMenu, setShowMenu] = useState<boolean>(false);
-    const menuLinks: string[] = ['Home', 'About', 'Events', 'Sign Up', 'Pricing', 'Careers', 'Contact', 'EN/中'];
-    const paths: string[] = ['/', '/about', '/events', '/sign-up', '/pricing', '/careers', '/contact', '/en']
+    const menuLinks: string[] = ['Home', 'About', 'Events', 'Sign Up', 'Pricing', 'Careers', 'Policies', 'Contact'];
+    const paths: string[] = ['/', '/about', '/events', '/sign-up', '/pricing', '/careers', '/policies', '/contact']
     const navigate = useNavigate();
 
     useEffect(() => {

@@ -13,7 +13,7 @@ const LandingPage: React.FC = () => {
             <Hero />
             <WhoWhy />
             <WeeklySessions />
-            <PricingPlans />
+            <PricingPlans showLearnMore={true}/>
             <NewsLanding />
             <Footer />
         </div>
