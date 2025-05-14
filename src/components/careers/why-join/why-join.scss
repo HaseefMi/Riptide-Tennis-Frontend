@@ -1,0 +1,46 @@
+.why-join-container {
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    gap: 5vw;
+
+    img {
+        height: 10vh;
+    }
+
+    div {
+        width: 33.33%;
+        border: 1px black solid;
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
+
+#why-join-us-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+@media(min-width: 1280px) {
+    .why-join-container img {
+        height: 20vh
+    }
+}
+
+@media(max-width: 480px) {
+    .why-join-container {
+        flex-direction: column;
+        padding: 0px;
+
+        div {
+            width: 85%;
+            margin-left: 2.5vw;
+        }
+    }
+}
+
+@media(max-width: 1000px) {
+    .why-join-container img {
+        height: 7vh;
+    }
+}

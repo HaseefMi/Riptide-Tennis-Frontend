@@ -3,8 +3,9 @@ import About from './components/about-page/about';
 import Contact from './components/contact/contact';
 import Pricing from './components/pricing-page/pricing';
 import Policies from './components/policies/policies';
-import { Routes, Route } from 'react-router-dom';
 import SignUp from './components/sign-up/sign-up';
+import Careers from './components/careers/careers-page';
+import { Routes, Route } from 'react-router-dom';
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Route path='/pricing' element={<Pricing />} />
         <Route path='/policies' element={<Policies />} />
         <Route path='/sign-up' element={<SignUp />} />
+        <Route path='/careers' element={<Careers />} />
       </Routes>
     </div>
   )

@@ -31,7 +31,13 @@
 
 @media(max-width: 830px) {
     .nav-link {
-        font-size: 15px; 
+        font-size: 13px; 
+    }
+}
+
+@media(max-width: 1100px) {
+    .nav-link {
+        font-size: 22px;
     }
 }
 

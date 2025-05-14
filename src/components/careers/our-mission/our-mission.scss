@@ -1,0 +1,42 @@
+.our-mission-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+    .our-mission-subdiv {
+        width: 45%;
+    }
+
+    .our-mission-subdiv-2 {
+        width: 35%;
+    }
+
+    img {
+        width: 30vw; 
+        display: block; 
+        margin: 0 auto;
+        border-radius: 20px;
+        margin-left: 5vw;
+    }
+}
+
+@media(max-width: 480px) {
+    .our-mission-container {
+        flex-direction: column;
+
+        img {
+            margin-left: 0;
+            width: 100%;
+        }
+
+        .our-mission-subdiv {
+            width: 100%;
+        }
+
+        .our-mission-subdiv-2 {
+            width: 100%;
+        }
+    }
+}

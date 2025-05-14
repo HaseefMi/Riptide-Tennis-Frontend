@@ -1,0 +1,48 @@
+.apply-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+    padding: 30px;
+    gap: 25px;
+
+    .apply-1 {
+        width: 50%;
+    }
+
+    .apply-sub-container {
+        border: 1px black solid;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .apply-2 img{
+        height: 500px;
+    }
+}
+
+#big {
+    font-size: 40px;
+}
+
+#how-to-apply-title {
+    text-align: center;
+    font-size: 35px;
+}
+
+@media(max-width: 1000px) {
+    .apply-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .apply-1 {
+            width: 80%;
+            text-align: center;
+        }
+
+        .apply-2 img {
+            height: 400px;
+        }
+    }
+}
