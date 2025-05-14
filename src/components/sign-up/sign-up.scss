@@ -1,0 +1,12 @@
+.sign-up-container {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+@media(max-width: 480px) {
+    .sign-up-container {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 10vh;
+    }
+}

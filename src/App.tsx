@@ -4,6 +4,7 @@ import Contact from './components/contact/contact';
 import Pricing from './components/pricing-page/pricing';
 import Policies from './components/policies/policies';
 import { Routes, Route } from 'react-router-dom';
+import SignUp from './components/sign-up/sign-up';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
         <Route path='/contact' element={<Contact />} />
         <Route path='/pricing' element={<Pricing />} />
         <Route path='/policies' element={<Policies />} />
+        <Route path='/sign-up' element={<SignUp />} />
       </Routes>
     </div>
   )
