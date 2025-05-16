@@ -1,0 +1,22 @@
+.article-container {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+    img {
+        height: 200px;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .article-container {
+        width: 70%;
+    }
+}
+
+@media(max-width: 480px) {
+    .article-container {
+        width: 90%;
+    }
+}

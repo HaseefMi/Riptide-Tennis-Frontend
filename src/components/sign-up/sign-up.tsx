@@ -1,8 +1,12 @@
 import './sign-up.scss'
 import Navigation from '../navigation/navigation'
 import Footer from '../footer/footer'
+import { useEffect } from 'react'
 
 const SignUp: React.FC = () => {
+    useEffect(() => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }, [])
     return (
         <>
         <Navigation />

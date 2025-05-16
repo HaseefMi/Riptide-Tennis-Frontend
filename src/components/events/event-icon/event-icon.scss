@@ -1,0 +1,35 @@
+.event-icon-container {
+   text-align: center;
+   margin-bottom: 50px;
+   border: 1px black solid;
+   border-radius: 10px;
+   padding: 10px;
+   height: 65vh;
+   cursor: pointer;
+}
+
+.event-icon-container:hover {
+    transition: transform 0.3s ease;
+    transform: translateY(-7%);
+}
+
+.event-icon-img {
+    border-radius: 10px;
+    height: 30vh;
+}
+
+@media(max-width: 1030px) {
+    .event-icon-container {
+        height: 400px;
+    }
+
+    .event-icon-img {
+        height: 125px;
+    }
+}
+
+@media(max-width: 780px) {
+    .event-icon-container {
+        height: 400px;
+    }
+}

@@ -3,6 +3,10 @@
     margin-bottom: 10vh;
 }
 
+.sign-up-container h1 {
+    animation: slideFromLeft 0.75s ease-out forwards;
+}
+
 @media(max-width: 480px) {
     .sign-up-container {
         width: 80%;
@@ -10,3 +14,9 @@
         margin-bottom: 10vh;
     }
 }
+
+@media(min-width: 1700px) {
+    .sign-up-container {
+        margin-bottom: 30vh;
+    }
+} 

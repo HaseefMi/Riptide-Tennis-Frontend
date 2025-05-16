@@ -7,6 +7,10 @@
     p {
         font-size: 3.5vh;
     }
+
+    h1 {
+        animation: slideFromLeft 0.75s ease-out forwards;
+    }
 }
 
 @media(max-width: 480px) {

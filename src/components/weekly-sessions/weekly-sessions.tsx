@@ -1,10 +1,15 @@
 import './weekly-sessions.scss'
 import OTHS from '../../assets/oths.png'
 import IYF from '../../assets/iyf.png'
+import { useNavigate } from 'react-router-dom'
 
 const WeeklySessions: React.FC = () => {
+    const navigate = useNavigate()
+    const handleClick = () => {
+        navigate('/sign-up')
+    }
     return (
-        <>
+        <div className='weekly-sessions-total-container'>
         <h1 className='weekly-sessions-header'>Weekly Sessions</h1>
         <div className='weekly-sessions-container'>
             <div className='session-container'>
@@ -28,7 +33,7 @@ const WeeklySessions: React.FC = () => {
                     <span>Every Saturday</span>
                     <p>⏱️ 12:00 PM - 2:00 PM</p>
                     <p>International Youth Fellowship</p>
-                    <a href='https://www.google.com/maps/place/International+Youth+Fellowship+-+Toronto+Centre/@43.7947978,-79.248905,17z/data=!3m1!4b1!4m6!3m5!1s0x89d4d11e3683df0b:0xb1659f5738df3efc!8m2!3d43.794794!4d-79.2463301!16s%2Fg%2F11fxb7h9r3?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D'>
+                    <a href='https://www.google.com/maps/place/International+Youth+Fellowship+-+Toronto+Centre/@43.7947978,-79.248905,17z/data=!3m1!4b1!4m6!3m5!1s0x89d4d11e3683df0b:0xb1659f5738df3efc!8m2!3d43.794794!4d-79.2463301!16s%2Fg%2F11fxb7h9r3?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D' target='_blank'>
                         70 Mcgrinskin Rd, Scarborough ON
                     </a>
                 </div>
@@ -37,8 +42,8 @@ const WeeklySessions: React.FC = () => {
                 </div>
             </div>
         </div>
-        <button className='register-session'>Register Now</button>
-        </>
+        <button className='register-session' onClick={handleClick}>Register Now</button>
+        </div>
     )
 }
 

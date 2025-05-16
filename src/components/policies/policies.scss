@@ -5,6 +5,10 @@
     margin-bottom: 10vh;
 }
 
+.policies-container h1 {
+    animation: slideFromLeft 0.75s ease-out forwards;
+}
+
 #bold {
     font-weight: bold;
 }

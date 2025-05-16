@@ -16,6 +16,11 @@
     }
 }
 
+.why-join-container div:hover {
+    transition: transform 0.3s ease;
+    transform: translateY(-5%);
+}
+
 #why-join-us-title {
     text-align: center;
     font-size: 50px;
@@ -27,7 +32,7 @@
     }
 }
 
-@media(max-width: 480px) {
+@media(max-width: 800px) {
     .why-join-container {
         flex-direction: column;
         padding: 0px;

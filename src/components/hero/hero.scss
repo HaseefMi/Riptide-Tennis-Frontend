@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     margin-top: 5vh;
-  
+    animation: slideFromLeft 0.75s ease-out forwards;
+
+    
     .hero-text {
       margin-right: 10vw;
       padding-left: 30px;

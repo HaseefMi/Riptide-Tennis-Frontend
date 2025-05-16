@@ -4,6 +4,7 @@
     background-color: #F7F7F7;
     justify-content: space-around;
     gap: 10vw;
+    padding: 20px;
 
     h3 {
         color: #208BFF;
@@ -14,21 +15,18 @@
         text-align: left;
         margin: 0 auto;
     }
-
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
     .footer-container {
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
     }
 
     .footer-sub-container {
-        width: 100%;
-    }
-}
-
-@media(min-width: 760px) {
-    .footer-sub-container:nth-child(1) {
-        margin-left: 6vw;
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: center !important;
     }
 }

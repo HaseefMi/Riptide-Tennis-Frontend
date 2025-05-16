@@ -1,6 +1,11 @@
 import './who-we-are.scss'
+import { useNavigate } from 'react-router-dom'
 
 const WhoWhy: React.FC = () => {
+    const navigate = useNavigate()
+    const handleClick = () => {
+        navigate('/about')
+    }
     return (
         <div className='who-why-container'>
             <h1>Who Are We? & Why Riptide?</h1>
@@ -9,7 +14,7 @@ const WhoWhy: React.FC = () => {
                 organization hosting inter-school competitions in Ontario, we're expanding our reach across 
                 the province. We currently host weekly events in Oakville and Scarborough, providing students 
                 with a friendly, stress-free environment to compete.</p>
-            <button>Learn More</button>
+            <button onClick={handleClick}>Learn More</button>
         </div>
     )
 }

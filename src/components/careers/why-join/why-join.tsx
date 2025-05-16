@@ -8,7 +8,7 @@ const WhyJoin: React.FC = () => {
     const titles: string[] = ['Mature Platform', 'Networking Opportunities', 'Advantages in University/College Applications'];
     const texts: string[] = ['Our planning system helps beginners quickly learn event organization, while our corporate connections provide free access to Canva Pro and other premium software.',
         'During planning, you will connect with teammates, venue providers, and sponsors, expanding your network and building valuable relationships.',
-        'University applications for competitive majors often require extracurriculars in essays or interviews. Leadership and event planning experience provide a competitive edge.'
+        'University/College applications for competitive majors often require extracurriculars in essays or interviews. Leadership and event planning experience provide a competitive edge.'
     ];
 
     return (
