@@ -34,7 +34,7 @@ const Navigation: React.FC = () => {
                 <img src={Logo} onClick={() => handleClick('/')}/>
             </div>
             <div className='nav-links'>
-            {windowWidth > 800 ? ( 
+            {windowWidth > 1000 ? ( 
                 menuLinks.map((link, index) =>  (
                     <p key={index} className='nav-link' onClick={() => handleClick(paths[index])}>{link}</p>
                 ))
